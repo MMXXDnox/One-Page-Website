@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif; /* Set a base font family */
+    font-size: 16px; /* Set a base font size */
+  }
+  
+  /* Navigation */
+  nav a {
+    margin-right: 20px; /* Add margin between navigation links */
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Set link color */
+  }
+  
+  nav a:hover {
+    color: #333; /* Change link color on hover */
+  }
+  
+  /* Headings */
+  h1, h2 {
+    margin-bottom: 15px; /* Add space below headings */
+  }
+  
+  /* Images */
+  img {
+    width: 200px; /* Set image width */
+    margin-right: 10px; /* Add margin between images */
+  }
+  
+  /* Lists */
+  ol {
+    padding-left: 20px; /* Add left padding for list items */
+  }
+  
+  li {
+    margin-bottom: 5px; /* Add space between list items */
+  }
+  
+  /* Contact Form */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%; /* Set width for input fields and textarea */
+    padding: 5px; /* Add padding to input fields and textarea */
+    border: 1px solid #ccc; /* Add a border to input fields and textarea */
+    border-radius: 5px; /* Add rounded corners to input fields and textarea */
+    margin-bottom: 10px; /* Add space below input fields and textarea */
+  }
+  
+  /* Button */
+  input[type="submit"] {
+    background-color: #333; /* Set button background color */
+    color: white; /* Set button text color */
+    padding: 10px 20px; /* Add padding to button */
+    border: none; /* Remove border from button */
+    border-radius: 5px; /* Add rounded corners to button */
+    cursor: pointer; /* Set cursor to pointer on hover */
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center; /* Center text in footer */
+    margin-top: 20px; /* Add space above footer */
+    padding: 10px; /* Add padding to footer */
+    background-color: #eee; /* Set footer background color */
+  }

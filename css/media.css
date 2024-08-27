@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Navigation */
+  nav {
+    text-align: center;
+  }
+  
+  nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #333;
+  }
+  
+  /* Headings */
+  h1, h2 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  /* Images */
+  img {
+    max-width: 100%; /* Ensure images don't exceed container width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Responsive Image Adjustments */
+  @media only screen and (max-width: 768px) {
+    img {
+      width: 80%; /* Adjust image width for smaller screens */
+    }
+  }
+  
+  /* Contact Form */
+  .contact-form {
+    max-width: 500px; /* Set maximum width for form */
+    margin: 0 auto; /* Center form horizontally */
+    padding: 20px; /* Add padding to form */
+    border: 1px solid #ccc; /* Add a border to form */
+    border-radius: 5px; /* Add rounded corners to form */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Button */
+  input[type="submit"] {
+    background-color: #FFD700;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #eee;
+  }
+  
+  /* Accessibility Styles */
+  .accessible-content {
+    display: none;
+  }
+  
+  .show-accessible-content:checked ~ .accessible-content {
+    display: block;
+  }
+  
+  /* Video */
+  .video-container {
+    text-align: center;
+  }
+  
+  .video-container iframe {
+    width: 100%; /* Ensure video fills container width */
+    height: auto; /* Maintain aspect ratio */
+  }
